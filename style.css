@@ -10,11 +10,11 @@ p {
 }
 
 a {
-    color: #61465a;
+    color: #61465a !important;
 }
 
 a:hover {
-    color: #1a1351;
+    color: #1a1351 !important;
 }
 
 /* Navbar */
