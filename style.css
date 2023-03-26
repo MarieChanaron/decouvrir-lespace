@@ -112,6 +112,11 @@ nav.navbar.sticky-top {
     height: 250px;
 }
 
+.normal-text {
+    color: var(--bs-card-color);
+    text-decoration: none;
+}
+
 /* Buttons */
 
 .btn[type="button"] {
@@ -209,7 +214,6 @@ textarea:focus {
     height: 100%;
     object-fit: cover;
     border-radius: 6px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .grid {
