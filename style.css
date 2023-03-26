@@ -9,6 +9,14 @@ p {
     text-align: justify;
 }
 
+a {
+    color: #61465a;
+}
+
+a:hover {
+    color: #1a1351;
+}
+
 /* Navbar */
 
 #accueil nav.navbar.sticky-top {
@@ -110,11 +118,6 @@ nav.navbar.sticky-top {
 
 .card img {
     height: 250px;
-}
-
-.normal-text {
-    color: var(--bs-card-color);
-    text-decoration: none;
 }
 
 /* Buttons */
