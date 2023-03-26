@@ -220,6 +220,13 @@ textarea:focus {
     grid-auto-flow: dense;
 }
 
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-auto-rows: 100px;
+    }
+}
+
 .horizontal {
     grid-column: span 2;
 }
