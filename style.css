@@ -9,11 +9,11 @@ p {
     text-align: justify;
 }
 
-a {
+a:not(nav a) {
     color: #61465a;
 }
 
-a:hover {
+a:not(nav a):hover {
     color: #1a1351;
 }
 
